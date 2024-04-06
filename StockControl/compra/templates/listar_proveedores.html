@@ -1,0 +1,25 @@
+{% extends 'index.html' %}
+
+{% block title %}Listado de Proveedores{% endblock %}
+
+{% block content %}
+    <h1>Listado de Proveedores</h1>
+    <table border="1">
+        <thead>
+            <tr>
+                <th>Nombre</th>
+                <th>Apellido</th>
+                <th>DNI</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for proveedor in proveedores %}
+            <tr>
+                <td>{{ proveedor.nombre }}</td>
+                <td>{{ proveedor.apellido }}</td>
+                <td>{{ proveedor.dni }}</td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+{% endblock %}
