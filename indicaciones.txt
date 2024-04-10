@@ -1,0 +1,17 @@
+
+
+agregar un producto
+
+http://127.0.0.1:8000/agregar_editar_producto/0/
+
+editar un producto
+
+http://127.0.0.1:8000/agregar_editar_producto/int id/
+
+agregar proveedor 
+
+http://127.0.0.1:8000/agregar-proveedor/
+
+listar productos 
+
+http://127.0.0.1:8000
